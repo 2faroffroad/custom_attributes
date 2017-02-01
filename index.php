@@ -382,8 +382,7 @@ class CustomAttributes {
 			echo '<link href="' . osc_plugin_url(__FILE__) . 'css/bender.css" rel="stylesheet" type="text/css">' . PHP_EOL;
 			osc_enqueue_script('jquery-ui');
 		} else {
-			echo '<link href="' . osc_base_url(false) . 'oc-includes/osclass/gui/css/jquery-ui/jquery-ui-1.8.20.custom.css" rel="stylesheet" type="text/css">' . PHP_EOL;
-		}
+echo '<link href="' . osc_base_url(false) . 'oc-includes/osclass/gui/js/jquery-ui/jquery-ui-1.10.2.custom.min.css" rel="stylesheet" type="text/css">' . PHP_EOL;		}
 	}
 
 	/**
